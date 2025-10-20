@@ -230,6 +230,7 @@ body {
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 20px;
+   font-family: "Montserrat", sans-serif;
 }
 /* Parágrafos com boa legibilidade */
 
@@ -286,6 +287,7 @@ body {
 
 #service .item p {
   font-size: 0.9rem;
+   font-family: "Montserrat", sans-serif;
 }
 /* Títulos e descrições dos serviços */
 
@@ -323,6 +325,7 @@ body {
   margin: 0 auto 60px;
   color: #444;
   font-size: 1em;
+  font-family: "Montserrat", sans-serif;
 }
 /* Títulos e texto centralizados com limite de largura */
 
@@ -361,6 +364,7 @@ body {
   font-size: 0.95em;
   color: #555;
   line-height: 1.6;
+   font-family: "Montserrat", sans-serif;
 }
 /* Estilo do texto dentro dos cards */
 
@@ -386,6 +390,7 @@ body {
   font-size: 1.2rem;
   margin-top: 15px;
   line-height: 1.6;
+  font-family: "Gilda Display", serif;
 }
 /* Texto explicativo acima da galeria */
 
@@ -449,6 +454,7 @@ body {
   font-size: 0.95rem;
   color: #ddd;
   line-height: 1.4;
+   font-family: "Montserrat", sans-serif;
 }
 
 #portfolio .projeto:hover .overlay {
@@ -477,6 +483,7 @@ body {
   margin-top: 10px;
   margin-bottom: 50px;
   font-size: 1.1rem;
+   font-family: "Montserrat", sans-serif;
 }
 
 .contato-container {
@@ -559,6 +566,7 @@ body {
 .contato-info p {
   margin-bottom: 20px;
   line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
 }
 
 .mapa {
@@ -575,6 +583,54 @@ body {
   color: #777;
   margin-top: 5px;
 }
+/* RESPONSIVIDADE */
+@media (max-width: 900px) {
+  .contato-container {
+    flex-direction: column;
+  }
+
+  .contato-form,
+  .contato-info {
+    width: 100%;
+  }
+}
+
+/* whatsapp-float */
+#whatsapp .whatsapp-lateral {
+  position: fixed;
+  top: 40%;
+  right: 0;
+  background-color: #25D366;
+  color: white;
+  padding: 16px 7px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+#whatsapp .whatsapp-lateral i {
+  font-size: 22px;
+  margin-top: 8px;
+   transform: rotate(90deg)
+}
+
+#whatsapp  .whatsapp-lateral:hover {
+  background-color: #20ba5a;
+  transform: rotate(180deg) scale(1.08);
+
+}
+
 
 /* RESPONSIVIDADE */
 @media (max-width: 900px) {
