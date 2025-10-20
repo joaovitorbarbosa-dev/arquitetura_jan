@@ -722,6 +722,7 @@ body {
 .swiper {
   flex: 1.2;
   max-width: 600px;
+ --swiper-navigation-size: 24px;
 }
 
 /* CARTÃO DO FEEDBACK */
@@ -737,27 +738,42 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-top: 20px;
-
+  margin-top: 40px;
 }
 
 .feedback-client img {
-   width: 60px;
+  width: 60px;
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
-  text-align: center;
 }
 
-.feedback-client h4 {
-   margin: 0;
-  color: #fff;
+/* BLOCO DE TEXTO DO LADO DA IMAGEM */
+.feedback-client-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left; /* nome e profissão alinhados entre si */
 }
 
-.feedback-cliente p {
-  color: #bbb;
+.feedback-client-info h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #fff; /* nome branco */
+}
+
+.feedback-client-info p {
   font-size: 0.9rem;
-   flex-direction: column; 
+  color: #000; /* profissão preta */
+  margin: 2px 0 0 0;
+}
+
+/* AJUSTE PARA O TEXTO DO FEEDBACK */
+.feedback-card p {
+  color: #fff;
+  font-style: italic;
+  line-height: 1.7;
 }
 
 
@@ -772,27 +788,30 @@ body {
   font-family: serif;
 }
 
-/* TEXTO DO FEEDBACK */
-.feedback-card p {
-  font-size: 1.1rem;
-  color: white;
-  line-height: 1.9;
-  font-style: italic;
-  margin-bottom: 40px;
-  font-family: "Montserrat", sans-serif;
-}
-
 
 /* BOTÕES DE NAVEGAÇÃO DO SWIPER */
-.swiper-button-prev,
-.swiper-button-next {
-  color: white;
+#feedback .swiper-button-next,
+#feedback .swiper-button-prev {
+  top: 50% !important;             /* centraliza no meio vertical */
+  /* transform: translateY(-50%);    */
+  color: #fff !important;         /* cor branca */
+  z-index: 10;
 }
 
-.swiper-button-next,
+.swiper-pagination-bullet {
+  background: #ffffff80; 
+  opacity: 1; 
+}
+.swiper-pagination-bullet-active {
+  background: #781830!important; 
+}
+
+
+
+/* .swiper-button-next, */
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  color: white;
+  color: white !important;
 }
 
 
