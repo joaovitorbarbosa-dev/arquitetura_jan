@@ -598,9 +598,9 @@ body {
 /* whatsapp-float */
 #whatsapp .whatsapp-lateral {
   position: fixed;
-  top: 40%;
+  top: 72%;
   right: 0;
-  background-color: #25D366;
+  background-color: #781830;
   color: white;
   padding: 16px 7px;
   border-radius: 6px;
@@ -626,7 +626,7 @@ body {
 }
 
 #whatsapp  .whatsapp-lateral:hover {
-  background-color: #20ba5a;
+  background-color: #781830;
   transform: rotate(180deg) scale(1.08);
 
 }
