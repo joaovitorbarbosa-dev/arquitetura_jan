@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* Remove margens e espaçamentos padrão dos elementos e
    usa box-sizing: border-box para facilitar o controle do layout */
 
@@ -12,6 +13,7 @@ body {
   height: 100%;
   overflow-x: hidden;
 }
+
 /* Define o corpo ocupando toda a tela e evita rolagem horizontal */
 
 
@@ -29,6 +31,7 @@ body {
   left: 0;
   z-index: 1000;
 }
+
 /* Cria um cabeçalho fixo no topo da página com fundo escuro,
    alinhamento dos itens e espaçamento lateral */
 
@@ -38,6 +41,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 /* Alinha o logo (imagem e texto) lado a lado no centro vertical */
 
 #logo h1 {
@@ -45,6 +49,7 @@ body {
   font-size: 24px;
   white-space: nowrap;
 }
+
 /* Título do logo em branco, tamanho médio e sem quebra de linha */
 
 #logo img {
@@ -52,6 +57,7 @@ body {
   height: 64px;
   border-radius: 50%;
 }
+
 /* Imagem do logo redonda e com tamanho fixo */
 
 
@@ -62,6 +68,7 @@ body {
   align-items: center;
   margin: 0 auto;
 }
+
 /* Centraliza o menu horizontalmente dentro do header */
 
 #menu ul {
@@ -71,6 +78,7 @@ body {
   gap: 16px;
   list-style: none;
 }
+
 /* Lista do menu em linha (horizontal), sem marcadores e com espaçamento */
 
 #menu ul li a {
@@ -84,6 +92,7 @@ body {
   border-radius: 6px;
   transition: transform 0.3s;
 }
+
 /* Links do menu: texto branco, espaçamento interno e animação suave */
 
 
@@ -92,6 +101,7 @@ body {
   background-color: rgb(130, 20, 48);
   transform: scale(1.05);
 }
+
 /* Ao passar o mouse, muda a cor de fundo e aumenta ligeiramente o tamanho */
 
 
@@ -105,6 +115,7 @@ body {
   padding: 8px 16px;
   transition: transform 0.3s;
 }
+
 /* Botão estilizado com fundo vinho, cantos arredondados e sem quebra de linha */
 
 #header .btn-menu:hover {
@@ -112,6 +123,7 @@ body {
   color: #781830;
   transform: scale(1.05);
 }
+
 /* Inversão de cores no hover (efeito interativo) */
 
 
@@ -128,6 +140,7 @@ body {
   padding: 0 20px;
   position: relative;
 }
+
 /* Seção inicial com imagem de fundo fixa e sobreposição escura leve */
 
 #hero::before {
@@ -140,6 +153,7 @@ body {
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
+
 /* Camada escura sobre a imagem para destacar o texto */
 
 
@@ -150,6 +164,7 @@ body {
   position: relative;
   z-index: 2;
 }
+
 /* Texto do hero centralizado, branco e acima da camada escura */
 
 #hero .hero-content h1 {
@@ -157,17 +172,20 @@ body {
   font-weight: 700;
   line-height: 1.2;
 }
+
 /* Título principal grande e em negrito */
 
 #hero .hero-content h1 span {
   color: #781830;
 }
+
 /* Destaque em vermelho-vinho para parte do título */
 
 #hero .hero-content h4 {
   font-size: 1.2rem;
   margin: 20px 0 40px;
 }
+
 /* Subtítulo com espaçamento entre o título e o botão */
 
 
@@ -181,6 +199,7 @@ body {
   font-weight: 500;
   transition: 0.3s;
 }
+
 /* Botão chamativo com estilo consistente com o menu */
 
 #hero .btn-hero:hover {
@@ -188,6 +207,7 @@ body {
   color: #781830;
   transform: scale(1.05);
 }
+
 /* Inversão de cores no hover */
 
 
@@ -196,6 +216,7 @@ body {
   padding: 80px 10%;
   background-color: rgb(249, 250, 251);
 }
+
 /* Espaçamento interno e fundo claro */
 
 #sobre .container {
@@ -205,6 +226,7 @@ body {
   gap: 60px;
   flex-wrap: wrap;
 }
+
 /* Layout flexível com espaçamento e quebra em telas menores */
 
 
@@ -213,6 +235,7 @@ body {
   flex: 1;
   min-width: 320px;
 }
+
 /* Define largura mínima e usa espaço proporcional */
 
 #sobre .texto h2 {
@@ -224,14 +247,16 @@ body {
   color: #781830;
   font-weight: 700;
 }
+
 /* Destaque na cor vinho */
 
 #sobre .texto p {
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 20px;
-   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
 /* Parágrafos com boa legibilidade */
 
 
@@ -243,6 +268,7 @@ body {
   gap: 50px;
   margin-top: 40px;
 }
+
 /* Organiza os ícones com espaçamento e quebra automática */
 
 #sobre .item {
@@ -255,6 +281,7 @@ body {
   max-width: 200px;
   min-height: 160px;
 }
+
 /* Estrutura individual de cada item de ícone */
 
 
@@ -274,7 +301,7 @@ body {
 
 #sobre .imagem img {
   width: 100%;
-  height: 650px ;
+  height: 650px;
 }
 
 /* Ícone circular, centralizado e com fundo vinho */
@@ -287,14 +314,16 @@ body {
 
 #service .item p {
   font-size: 0.9rem;
-   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
 /* Títulos e descrições dos serviços */
 
 #service .imagem {
   flex: 1;
   text-align: center;
 }
+
 /* Centraliza a imagem */
 
 .imagem img {
@@ -303,6 +332,7 @@ body {
   border-radius: 15px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 }
+
 /* Imagem com bordas arredondadas e sombra suave */
 
 #service {
@@ -327,6 +357,7 @@ body {
   font-size: 1em;
   font-family: "Montserrat", sans-serif;
 }
+
 /* Títulos e texto centralizados com limite de largura */
 
 
@@ -337,6 +368,7 @@ body {
   gap: 30px;
   justify-content: center;
 }
+
 /* Grid flexível que se adapta ao tamanho da tela */
 
 .card {
@@ -346,12 +378,14 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s, box-shadow 0.3s;
 }
+
 /* Card com sombra leve e animação de elevação */
 
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
+
 /* Efeito de destaque no hover */
 
 .cards-service h3 {
@@ -364,8 +398,9 @@ body {
   font-size: 0.95em;
   color: #555;
   line-height: 1.6;
-   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
 /* Estilo do texto dentro dos cards */
 
 
@@ -374,7 +409,9 @@ body {
   width: 100%;
   text-align: center;
   padding: 80px 0;
+  background-color: rgb(249, 250, 251);
 }
+
 /* Centraliza e adiciona espaçamento vertical */
 
 #portfolio .portfolio-text h2 {
@@ -392,6 +429,7 @@ body {
   line-height: 1.6;
   font-family: "Gilda Display", serif;
 }
+
 /* Texto explicativo acima da galeria */
 
 #portfolio .portfolio-galeria {
@@ -401,6 +439,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
+
 /* Galeria responsiva de imagens */
 
 
@@ -410,6 +449,7 @@ body {
   overflow: hidden;
   border-radius: 15px;
 }
+
 /* Container de cada imagem do portfólio com bordas arredondadas */
 
 #portfolio .projeto:hover {
@@ -428,6 +468,7 @@ body {
 #portfolio .projeto:hover img {
   transform: scale(1.05);
 }
+
 /* Aumenta a imagem levemente no hover */
 
 #portfolio .overlay {
@@ -442,6 +483,7 @@ body {
   opacity: 0;
   transition: opacity 0.4s ease;
 }
+
 /* Camada escura sobre a imagem com texto escondido inicialmente */
 
 #portfolio .overlay h3 {
@@ -454,7 +496,7 @@ body {
   font-size: 0.95rem;
   color: #ddd;
   line-height: 1.4;
-   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #portfolio .projeto:hover .overlay {
@@ -483,7 +525,7 @@ body {
   margin-top: 10px;
   margin-bottom: 50px;
   font-size: 1.1rem;
-   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contato-container {
@@ -583,6 +625,7 @@ body {
   color: #777;
   margin-top: 5px;
 }
+
 /* RESPONSIVIDADE */
 @media (max-width: 900px) {
   .contato-container {
@@ -622,14 +665,137 @@ body {
 #whatsapp .whatsapp-lateral i {
   font-size: 22px;
   margin-top: 8px;
-   transform: rotate(90deg)
+  transform: rotate(90deg)
 }
 
-#whatsapp  .whatsapp-lateral:hover {
+#whatsapp .whatsapp-lateral:hover {
   background-color: #781830;
   transform: rotate(180deg) scale(1.08);
 
 }
+
+
+/* Feedback */
+#feedback {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.feedback-container {
+   display: flex;
+  max-width: 1200px;
+  width: 90%;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* TÍTULO */
+#feedback h2 {
+  width: 100%;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+#feedback h2 span {
+  color: #781830; /* tom dourado */
+}
+
+/* IMAGEM LATERAL ESQUERDA */
+.feedback-img {
+  flex: 1;
+}
+
+.feedback-img img {
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* SWIPER (LADO DIREITO) */
+.swiper {
+  flex: 1.2;
+  max-width: 600px;
+}
+
+/* CARTÃO DO FEEDBACK */
+.feedback-card {
+  background:#781830;
+  padding: 60px 50px;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.4s;
+}
+
+.feedback-client {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+
+}
+
+.feedback-client img {
+   width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.feedback-client h4 {
+   margin: 0;
+  color: #fff;
+}
+
+.feedback-cliente p {
+  color: #bbb;
+  font-size: 0.9rem;
+   flex-direction: column; 
+}
+
+
+/* ASPAS DECORATIVAS */
+.feedback-card::before {
+  content: "“";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.193);
+  font-family: serif;
+}
+
+/* TEXTO DO FEEDBACK */
+.feedback-card p {
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.9;
+  font-style: italic;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/* BOTÕES DE NAVEGAÇÃO DO SWIPER */
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+}
+
+.swiper-button-next,
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: white;
+}
+
+
 
 
 /* RESPONSIVIDADE */
@@ -656,4 +822,3 @@ body {
     justify-content: center;
   }
 }
-

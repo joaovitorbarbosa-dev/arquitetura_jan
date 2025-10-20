@@ -9,8 +9,8 @@
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
 
@@ -38,14 +38,14 @@
     </div>
 
     <!-- inicio -->
-    <div id="hero">
+    <main id="hero">
         <div class="hero-content">
             <h1>Transformamos ideias em<br><span>espaços incríveis</span></h1>
             <h4>Projetos de arquitetura que unem estética, funcionalidade e inovação para criar ambientes únicos e
                 inspiradores.</h4>
             <a href="#portfolio" class="btn-hero">Conheça nossos serviços </a>
         </div>
-    </div>
+    </main>
 
     <!-- sobre -->
     <div id="sobre">
@@ -186,6 +186,78 @@
         </div>
     </section>
 
+    <!-- Feedback -->
+    <section id="feedback">
+        <div class="feedback-container">
+
+            <div class="feedback-img">
+                <img src="assets/feedback.png" alt="Clientes satisfeitos">
+            </div>
+
+            <!-- CONTEÚDO / SLIDER -->
+            <div class="swiper">
+                <h2>Feedback dos <span>Clientes</span></h2>
+
+                <div class="swiper-wrapper">
+                    <!-- CARD 1 -->
+                    <div class="swiper-slide">
+                        <div class="feedback-card">
+                            <p>
+                                “A equipe foi extremamente atenciosa e o resultado superou minhas expectativas.
+                                Voltarei a contratar com certeza!”
+                            </p>
+
+                            <div class="feedback-client">
+                                <img src="assets/feedback.png" alt="Foto de Marina Lopes" />
+                                <h4>Marina Lopes</h4>
+                                <span>CEO e Fundadora</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="swiper-slide">
+                        <div class="feedback-card">
+                            <p>
+                                “A equipe foi extremamente atenciosa e o resultado superou minhas expectativas.
+                                Voltarei a contratar com certeza!”
+                            </p>
+
+                            <div class="feedback-client">
+                                <img src="assets/feedback.png" alt="Foto de Marina Lopes" />
+                                <h4>Marina Lopes</h4>
+                                <span>CEO e Fundadora</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="swiper-slide">
+                        <div class="feedback-card">
+                            <p>
+                                “A equipe foi extremamente atenciosa e o resultado superou minhas expectativas.
+                                Voltarei a contratar com certeza!”
+                            </p>
+
+                            <div class="feedback-client">
+                                <img src="assets/feedback.png" alt="Foto de Marina Lopes" />
+                                <h4>Marina Lopes</h4>
+                                <span>CEO e Fundadora</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTROLES DO SWIPER -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+    </section>
+
+
+
+
     <!-- contato -->
     <section id="contato">
         <h2>Entre em <span>Contato</span></h2>
@@ -212,6 +284,7 @@
                     <button type="submit">Enviar</button>
                 </form>
             </div>
+
 
             <!-- Informações -->
             <div class="contato-info">
@@ -241,19 +314,17 @@
     </section>
 
 
-<!-- BOTÃO WHATSAPP FLUTUANTE -->
+    <!-- BOTÃO WHATSAPP FLUTUANTE -->
     <section id="whatsapp">
-<a href="https://wa.me/5599999999999" target="_blank" class="whatsapp-lateral">
-<i class="fa-regular fa-comment-dots"></i>
-  <span>WhatsApp</span>
-</a>
-
-    
-
+        <a href="https://wa.me/5599999999999" target="_blank" class="whatsapp-lateral">
+            <i class="fa-regular fa-comment-dots"></i>
+            <span>WhatsApp</span>
+        </a>
     </section>
 
 
-<script src="scripit.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
